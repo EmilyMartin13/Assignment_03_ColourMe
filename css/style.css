@@ -35,7 +35,7 @@ h3 {
     max-width: 90%;
     max-height: 400px;
     border-radius: 100px;
-    border-style:solid;
+    border-style: solid;
     border-width: 10px;
     border-color: darkred;
     background-image: linear-gradient (to bottom right, red, yellow);
