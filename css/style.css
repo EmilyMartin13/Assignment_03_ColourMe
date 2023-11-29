@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+html,
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: white;
+}
+
+h1 {
+    font-family: "Playpen Sans", "ExtraBold 800";
+    font-size: 100px;
+    text-align: center;
+    max-height: 400px;
+    color: white;
+}
+
+h2 {
+    font-family: "Playpen Sans", "SemiBold 600";
+    text-align: center;
+}
+
+h3 {
+    font-family: "Playpen Sans", "Regular 400";
+    color: white;
+}
+
+.gradient-box {
+    max-width: 90%;
+    max-height: 400px;
+    border-radius: 100px;
+    border-style:solid;
+    border-width: 10px;
+    border-color: darkred;
+    background-image: linear-gradient (to bottom right, red, yellow);
+    background-color: red;
+    margin: auto;
+    margin: 20px;
+}
+
+.small-box {
+    max-width: 18%;
+    max-height: 20%;
+    height: 60px;
+    background-color: lightblue;
+    border-radius: 30px;
+    padding: 10px;
+    margin: auto;
+}
+
+.options {
+    max-width: 85%;
+    max-height: 20%;
+    height: 250px;
+    width: 400px;
+    background-color: black;
+    border-radius: 30px;
+    padding: 10px;
+    margin: auto;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+
+
+}
