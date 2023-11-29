@@ -11,6 +11,7 @@ body {
     margin: 0;
     min-height: 100vh;
     background-color: white;
+    cursor: url(../imgs/Paintbrush2.jpg), auto;
 }
 
 h1 {
@@ -68,5 +69,10 @@ h3 {
     padding: 10px;
     text-align: center;
 
+
+}
+
+.colours {
+    margin: 50px;
 
 }
