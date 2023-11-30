@@ -11,7 +11,8 @@ body {
     margin: 0;
     min-height: 100vh;
     background-color: white;
-    cursor: url(../imgs/Paintbrush2.jpg), auto;
+    cursor: url(../imgs/cat.svg) 4 12, auto;
+    padding: 5px;
 }
 
 h1 {
@@ -30,6 +31,10 @@ h2 {
 h3 {
     font-family: "Playpen Sans", "Regular 400";
     color: white;
+    background-color: lightgrey;
+    text-align: center;
+    font-size: 60px;
+
 }
 
 .gradient-box {
@@ -46,7 +51,7 @@ h3 {
 }
 
 .small-box {
-    max-width: 18%;
+    max-width: 20%;
     max-height: 20%;
     height: 60px;
     background-color: lightblue;
@@ -57,16 +62,12 @@ h3 {
 
 .options {
     max-width: 85%;
-    max-height: 20%;
-    height: 250px;
-    width: 400px;
-    background-color: black;
     border-radius: 30px;
     padding: 10px;
     margin: auto;
-    display: inline-block;
+    display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 50px;
     text-align: center;
 
 
@@ -74,5 +75,44 @@ h3 {
 
 .colours {
     margin: 50px;
+
+}
+
+.pictures {
+    max-width: 55%;
+    max-height: 55%;
+    margin: auto;
+    border: 8px;
+    border-style: dashed;
+    padding: 5px;
+}
+
+.med-box {
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px;
+    border-radius: 50px;
+    border-style: dashed;
+    padding: 20px;
+    border-color: black;
+
+}
+
+#lightbulb {
+    width: 200px;
+    height: 200px;
+    border: 5px;
+    border-radius: 100px;
+    border-color: black;
+
+}
+
+#alert {
+    display: none;
 
 }

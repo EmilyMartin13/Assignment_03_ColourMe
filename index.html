@@ -16,40 +16,43 @@
     <header>
         <section class="gradient-box">
             <h1>Colour Me</h1>
+            <img id="lightbulb" src="imgs/lightbulb.png" alt="lightbulb">
         </section>
     </header>
 
     <div class="Page-Options">
         <h2 class="small-box">Colouring Pages:</h2>
         <section class="options">
-            <h3>Sea</h3>
-            <h3>Floral</h3>
-            <h3>Farm</h3>
+            <h3 class="med-box">Sea</h3>
+            <h3 class="med-box">Floral</h3>
+            <h3 class="med-box">Farm</h3>
         </section>
     </div>
 
     <div class="colours">
-        <img src="imgs/blue.jpg" alt="Blue Splatter">
+        <img src="imgs/blue.jpg" alt="Blue" class="color-option" data-color="blue">
 
     </div>
 
-    <div class="pictures">
-        <img src="imgs/cat.svg" alt="cat colouring page">
-
+    <div class="pictures svg-container">
+        <svg id="shapes" width="818" height="555" viewBox="0 0 818 555" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect id="frame" width="818" height="555" fill="#F5F5F5" />
+            <rect id="background" width="818" height="555" fill="white" />
+            <rect id="rect" x="132.5" y="58.5" width="538" height="386" fill="#FFFCFC" stroke="black"
+                stroke-width="5" />
+            <path id="triangle" d="M315.215 301.5L401 150.086L486.785 301.5H315.215Z" fill="white" stroke="black"
+                stroke-width="6" />
+            <path id="star"
+                d="M282.5 129.339L309.673 199.815L310.414 201.736H312.473H398.821L329.43 244.22L327.298 245.526L328.198 247.858L354.985 317.333L284.066 273.913L282.5 272.954L280.934 273.913L210.015 317.333L236.802 247.858L237.702 245.526L235.57 244.22L166.179 201.736H252.527H254.586L255.327 199.815L282.5 129.339Z"
+                fill="white" stroke="black" stroke-width="6" />
+            <rect id="other" x="438" y="104" width="176" height="153" fill="white" stroke="black" stroke-width="6" />
+            <path id="circle"
+                d="M597 343.5C597 383.803 560.592 417 515 417C469.408 417 433 383.803 433 343.5C433 303.197 469.408 270 515 270C560.592 270 597 303.197 597 343.5Z"
+                fill="white" stroke="black" stroke-width="6" />
+        </svg>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <p id="alert">Use the paint brush to paint the colouring page. If you make a mistake, that's okay! Just use the
+        eraser to clear colours.</p>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
