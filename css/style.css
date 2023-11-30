@@ -44,8 +44,7 @@ h3 {
     border-style: solid;
     border-width: 10px;
     border-color: darkred;
-    background-image: linear-gradient (to bottom right, red, yellow);
-    background-color: red;
+    background-image: linear-gradient(to bottom right, red, yellow);
     margin: auto;
     margin: 20px;
 }

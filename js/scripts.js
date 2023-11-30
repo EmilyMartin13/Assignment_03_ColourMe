@@ -2,33 +2,32 @@ console.log("connected!")
 var x = document.title;
 console.log(x)
 
-var cuurentColor = 'white';
+
+var newColor;
 
 // Click event for color options
 $('.color-option').click(function () {
-    var newColor = $(this).data('color');
-    changeColor(newColor);
+    newColor = $(this).data('color');
+    console.log(newColor);
+    // changeColor(newColor);
 });
 
 // Function to change color of SVG elements
-function changeColor(newColor) {
-    $("#svg-container svg, #background").attr('fill', newColor);
-    $("#svg-container svg, #rect").attr('fill', newColor);
-    $("#svg-container svg, #triangle").attr('fill', newColor);
-    $("#svg-container svg, #star").attr('fill', newColor);
-    $("#svg-container svg, #other").attr('fill', newColor);
-    $("#svg-container svg, #circle").attr('fill', newColor);
+// function changeColor(newColor) {
+//     $("#background").attr('fill', newColor);
+//     $("#rect").attr('fill', newColor);
+//     $("#triangle").attr('fill', newColor);
+//     $("#star").attr('fill', newColor);
+//     $("#other").attr('fill', newColor);
+//     $("#circle").attr('fill', newColor);
 
-    currentColor = newColor;
-
-}
+// }
+$(".shape").on("click", function () {
+    $(this).attr('fill', newColor);
+});
 
 $("#lightbulb").click(function () {
-    alert('#alert');
+    alert('#Pro Tip!Use the paint brush to paint the colouring page. If you make a mistake, thats okay! Just use the eraser to clear colours!');
 });
 
-$.alert({
-    title: 'Pro Tip!',
-    content: 'Use the paint brush to paint the colouring page. If you make a mistake, thats okay! Just use the eraser to clear colours!',
-});
 
