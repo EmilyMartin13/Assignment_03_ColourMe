@@ -13,7 +13,7 @@ $('.color-option').click(function () {
 });
 
 // Function to change color of SVG elements
-// function changeColor(newColor) {
+// function ch angeColor(newColor) {
 //     $("#background").attr('fill', newColor);
 //     $("#rect").attr('fill', newColor);
 //     $("#triangle").attr('fill', newColor);
