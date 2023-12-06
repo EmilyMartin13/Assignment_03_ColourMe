@@ -25,6 +25,11 @@ $(".cls-1, .cls-2, .cls-3").on("click", function () {
     $(this).attr('fill', newColor);
 });
 
+$(".Cls-1, .Cls-2, .Cls-3 .Cls-4 .Cls-5 .Cls-6").on("click", function () {
+    console.log("element worked!");
+    $(this).attr('fill', newColor);
+});
+
 $("#lightbulb").click(function () {
     alert('#Pro Tip!Use the paint brush to paint the colouring page. If you make a mistake, thats okay! Just use the eraser to clear colours!');
 });
@@ -45,5 +50,6 @@ $("#flowers").on("click", function () {
     catus.hide();
 });
 
-//  $(“body”).css(“cursor”, “cursor” + newColor + ("..//imgs/tip-01.png")
-
+// $("#tip").on("click", function () {
+//     $(“body”).css(“cursor”, “cursor” + newColor + ("..//imgs/tip-01.png")
+// });

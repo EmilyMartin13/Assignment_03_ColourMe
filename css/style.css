@@ -83,7 +83,7 @@ h3 {
 }
 
 .colours {
-    margin: 20px;
+    margin:auto;
     justify-content: center;
 }
 
@@ -136,8 +136,7 @@ background-image: id name
 
 
 .pictures-svg-container {
-    width: 80%;
-    
+    width: 50%;
     border: 8px;
     border-style: dashed;
     margin: auto;
@@ -248,3 +247,8 @@ background-image: id name
     display: none;
 
 }
+
+#tip {
+    display: none;
+}
+
