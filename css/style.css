@@ -11,12 +11,13 @@ body {
     margin: 0;
     min-height: 100vh;
     background-color: white;
-    cursor: url(../imgs/paintbrush-02.svg) 4, 12, auto;
+    cursor: url(../imgs/paintbrush-02.svg) 10 5, auto;
     padding: 10px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
 
 h1 {
@@ -31,12 +32,13 @@ h1 {
 h2 {
     font-family: "Playpen Sans", "SemiBold 600";
     text-align: center;
+    color: white;
 }
 
 h3 {
     font-family: "Playpen Sans", "Regular 400";
     color: white;
-    background-color: lightgrey;
+    background-color: #F2B5A7;
     text-align: center;
     font-size: 60px;
 
@@ -85,14 +87,7 @@ h3 {
     justify-content: center;
 }
 
-.pictures {
-    max-width: 60%;
-    max-height: 17%;
-    margin: auto;
-    border: 8px;
-    border-style: dashed;
-    padding: 5px;
-}
+
 
 .med-box {
     width: 400px;
@@ -106,7 +101,7 @@ h3 {
     border-radius: 50px;
     border-style: dashed;
     padding: 20px;
-    border-color: black;
+    border-color: #D95448;
 
 }
 
@@ -140,10 +135,12 @@ background-image: id name
 
 
 
-.svg-container {
-    max-width: 60%;
-    max-height: 17%;
-
+.pictures-svg-container {
+    width: 80%;
+    
+    border: 8px;
+    border-style: dashed;
+    margin: auto;
 
 }
 
@@ -170,4 +167,84 @@ background-image: id name
 
 .cls-3 {
     fill: none;
+}
+
+#fresh-cut-flowers {
+    display: none;
+}
+
+.custom-cursor {
+    display: none;
+    position: fixed;
+}
+
+.Ccls-1 {
+    fill: none;
+}
+
+.Ccls-1,
+.Ccls-2,
+.Ccls-3,
+.Ccls-4 {
+    stroke: #231f20;
+    stroke-miterlimit: 10;
+}
+
+.Ccls-5 {
+    stroke-width: 0px;
+}
+
+.Ccls-5,
+.Ccls-4 {
+    fill: #b99b72;
+}
+
+.Ccls-2 {
+    fill: #fff;
+}
+
+.Ccls-3 {
+    fill: #bbbdbf;
+}
+
+
+.Cls-1,
+.Cls-2,
+.Cls-3,
+.Cls-4,
+.Cls-5,
+.Cls-6 {
+    stroke: #231f20;
+    stroke-miterlimit: 10;
+}
+
+.Cls-1,
+.Cls-6 {
+    fill: none;
+}
+
+.Cls-2,
+.Cls-3,
+.Cls-4,
+.Cls-5 {
+    fill: #fff;
+}
+
+.Cls-2,
+.Cls-6 {
+    stroke-width: 3px;
+}
+
+.Cls-3 {
+    stroke-width: 4px;
+}
+
+.Cls-5 {
+    stroke-width: 6px;
+}
+
+
+#catus {
+    display: none;
+
 }
