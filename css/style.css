@@ -143,6 +143,31 @@ background-image: id name
 .svg-container {
     max-width: 60%;
     max-height: 17%;
-   
 
+
+}
+
+.cls-1 {
+    stroke-width: 3px;
+}
+
+.cls-1,
+.cls-2 {
+    fill: #fff;
+}
+
+.cls-1,
+.cls-2,
+.cls-3 {
+    stroke: #231f20;
+    stroke-miterlimit: 10;
+}
+
+.cls-2,
+.cls-3 {
+    stroke-width: 4px;
+}
+
+.cls-3 {
+    fill: none;
 }
