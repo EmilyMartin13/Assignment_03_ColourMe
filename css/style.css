@@ -11,7 +11,7 @@ body {
     margin: 0;
     min-height: 100vh;
     background-color: white;
-    cursor: url(../imgs/paintbrush-02.svg) 200, 100, auto;
+    cursor: url(../imgs/paintbrush-02.svg) 4, 12, auto;
     padding: 10px;
     min-height: 100vh;
     display: flex;
@@ -81,13 +81,13 @@ h3 {
 }
 
 .colours {
-    margin: 50px;
-
+    margin: 20px;
+    justify-content: center;
 }
 
 .pictures {
-    max-width: 55%;
-    max-height: 55%;
+    max-width: 60%;
+    max-height: 17%;
     margin: auto;
     border: 8px;
     border-style: dashed;
@@ -110,6 +110,14 @@ h3 {
 
 }
 
+.med-box :active {
+    background-color: black;
+}
+
+/* .med-box :hover {
+background-image: id name 
+} */
+
 #lightbulb {
     width: 200px;
     height: 200px;
@@ -127,5 +135,14 @@ h3 {
 
 #alert {
     display: none;
+
+}
+
+
+
+.svg-container {
+    max-width: 60%;
+    max-height: 17%;
+   
 
 }

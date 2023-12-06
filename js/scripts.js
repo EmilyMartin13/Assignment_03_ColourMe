@@ -9,19 +9,9 @@ var newColor;
 $('.color-option').click(function () {
     newColor = $(this).data('color');
     console.log(newColor);
-    // changeColor(newColor);
+   
 });
 
-// Function to change color of SVG elements
-// function ch angeColor(newColor) {
-//     $("#background").attr('fill', newColor);
-//     $("#rect").attr('fill', newColor);
-//     $("#triangle").attr('fill', newColor);
-//     $("#star").attr('fill', newColor);
-//     $("#other").attr('fill', newColor);
-//     $("#circle").attr('fill', newColor);
-
-// }
 $(".shape").on("click", function () {
     $(this).attr('fill', newColor);
 });
