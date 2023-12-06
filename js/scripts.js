@@ -22,12 +22,14 @@ $('.color-option').click(function () {
 
 $(".cls-1, .cls-2, .cls-3").on("click", function () {
     console.log("element worked!");
-    $(this).attr('fill', newColor);
+    $(this).css('fill', newColor);
+    // $(this).hide().show(0); // force re-render
 });
 
-$(".Cls-1, .Cls-2, .Cls-3 .Cls-4 .Cls-5 .Cls-6").on("click", function () {
+$(".Cls-1, .Cls-2, .Cls-3, .Cls-4, .Cls-5, .Cls-6").on("click", function () {
     console.log("element worked!");
-    $(this).attr('fill', newColor);
+    $(this).css('fill', newColor);
+    // $(this).hide().show(0); // force re-render
 });
 
 $("#lightbulb").click(function () {
