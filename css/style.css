@@ -83,7 +83,7 @@ h3 {
 }
 
 .colours {
-    margin:auto;
+    margin: auto;
     justify-content: center;
 }
 
@@ -251,4 +251,3 @@ background-image: id name
 #tip {
     display: none;
 }
-
